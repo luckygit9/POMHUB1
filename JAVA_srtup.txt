@@ -1,0 +1,32 @@
+https://www.youtube.com/watch?v=IJ-PJbvJBGs  
+
+JAVA Install
+
+search for Java JDK download
+https://www.oracle.com/java/technologies/downloads/#jdk19-windows
+
+
+Click on x64 exe file
+
+Copy upto Bin folder (path)
+
+Settings-->env. variables -
+
+undr system - path - edit -paste path upto bin -ok
+under system - New - variable name as JAVA_HOME -value is path upto JDK folder -ok
+
+cmd - java -version
+      javac -version
+      echo %JAVA_HOME%  (dislays path set in env. variables)
+
+intelli sense - cntrl + Shift
+windows - preferences  - general - appearence -colors font - java -java editor - edit - size as 16- apply -ok
+
+
+ECLISE Install --
+https://www.youtube.com/watch?v=N-wXTRpR03U
+
+Search for ECLIPSE IDE install..
+download 64bit windows
+
+open exe - chose eclipse IDE for java developers - install - acccept- (check for all certificates)
